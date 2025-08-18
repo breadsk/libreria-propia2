@@ -1,0 +1,33 @@
+
+.background-brown{
+    background-color: brown;
+}
+.color-aliceblue{
+    color: aliceblue;
+}
+.display-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.font-family-courier{
+    font-family:'Courier New', Courier, monospace;
+}
+.font-family-franklin{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.round-1{
+    border-radius: .3rem;
+}
+.no-underline{
+    text-decoration: none;
+}
+
+/* Pseudoclases */
+nav a:hover{
+    cursor: pointer;
+}
