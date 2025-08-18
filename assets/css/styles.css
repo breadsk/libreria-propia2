@@ -1,9 +1,15 @@
 
+.align-items-center{
+    align-items: center;
+}
 .background-brown{
-    background-color: brown;
+    background-color: rgb(138, 17, 17);
 }
 .color-aliceblue{
     color: aliceblue;
+}
+.color-white{
+    color: white;
 }
 .display-flex{
     display: flex;
@@ -11,8 +17,15 @@
 .justify-content-center{
     justify-content: center;
 }
+.d-flex-j-content-center{
+    display: flex;
+    justify-content: center;
+}
 .justify-content-space-around{
     justify-content: space-around;
+}
+.flex-direction-column{
+    flex-direction: column;
 }
 .font-family-courier{
     font-family:'Courier New', Courier, monospace;
@@ -20,13 +33,18 @@
 .font-family-franklin{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.round-1{
-    border-radius: .3rem;
-}
 .no-underline{
     text-decoration: none;
 }
-
+.no-decoration{
+    text-decoration: none;
+}
+.round-1{
+    border-radius: .3rem;
+}
+.round-2{
+    border-radius: .5rem;
+}
 /* Pseudoclases */
 nav a:hover{
     cursor: pointer;
