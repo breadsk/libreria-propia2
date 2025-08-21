@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
 
 .align-items-center{
     align-items: center;
@@ -51,4 +58,35 @@
 /* Pseudoclases */
 nav a:hover{
     cursor: pointer;
+}
+
+.boton-guardar{
+    width: 150px;
+    background-color: #5050cf;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-style: none;
+    border-radius: .2rem;
+    padding: .5rem 1rem;
+    transition: .3s;
+    margin: .3rem auto;
+}
+
+.boton-guardar:hover{
+    cursor: pointer;
+    background-color: #25259b;
+    transition: .3s;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input {
+    width: 200px;    
+}
+.centrar {
+    margin: .3rem auto;
 }
